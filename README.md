@@ -1,7 +1,7 @@
 
 
 # Установка
-Склонировать репозиторий
+Склонируй репозиторий
 ```
 git clone https://github.com/CompleXss/lab2-linux.git
 ```
