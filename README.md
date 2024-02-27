@@ -3,7 +3,7 @@
 # Установка
 Склонируй репозиторий
 ```
-git clone https://github.com/CompleXss/lab2-linux.git
+git clone https://github.com/CompleXss/lab2.git
 ```
 
 Запусти ``setup.sh``, этот скрипт установит .net 8 sdk, забилдит проект и создаст демона **lab2-host**
