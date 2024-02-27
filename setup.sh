@@ -6,6 +6,7 @@ chmod +x ./build.sh
 chmod +x ./create_daemon.sh
 chmod +x ./run_client.sh
 chmod +x ./run_host.sh
+chmod +x ./uninstall_daemon.sh
 
 echo "
 >> Building app
