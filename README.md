@@ -41,6 +41,9 @@ sudo systemctl restart lab2-host
 sudo systemctl stop lab2-host
 ```
 
+Для удаление демона из системы, запусти ``uninstall_daemon.sh``
+
+
 # Использование
 После запуска ``setup.sh`` демон-сервер уже настроен и готов к работе.
 
