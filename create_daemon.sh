@@ -1,5 +1,6 @@
 cd /etc/systemd/system/
 
+DIR=$(cd "$(dirname $0)" && pwd)
 file="lab2-host.service"
 
 sudo rm $file
@@ -11,7 +12,7 @@ Description=lab2 file receiver daemon
 
 [Service]
 Type=notify
-ExecStart=$HOME/Documents/lab2/lab2-host/build/lab2-host
+ExecStart=$DIR/lab2-host/build/lab2-host
 
 [Install]
 WantedBy=multi-user.target" | sudo tee -a $file
